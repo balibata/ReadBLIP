@@ -41,7 +41,7 @@ The following links are relevant paper and original github code, and they also p
 
 Website: https://replicate.com/salesforce/blip?prediction=bswoddzbzybiwyizksnkohyzxq
 
-![image-20231024000859307](C:\Users\14111\AppData\Roaming\Typora\typora-user-images\image-20231024000859307.png)
+![image-20231024000859307](winter.png)
 
 ![image-20231024001353865](C:\Users\14111\AppData\Roaming\Typora\typora-user-images\image-20231024001353865.png)
 
