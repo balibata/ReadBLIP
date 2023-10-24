@@ -109,13 +109,15 @@ A unified approach like BLIP's can offer several advantages, such as reduced nee
 
 Website: https://replicate.com/salesforce/blip?prediction=bswoddzbzybiwyizksnkohyzxq
 
-**Q1: What is the girl doing?
-A1: playing guitar**
+**Q1: What is the girl doing?**
+
+**A1: playing guitar**
 
 ![image-20231024001353865](/winter.png)
 
-**Q2: What are the woman and dog are doing between each other?
-A2: petting**
+**Q2: What are the woman and dog are doing between each other?**
+
+**A2: petting**
 
 ![image-20231024001353865](/demo.png)
 
