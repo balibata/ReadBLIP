@@ -109,7 +109,8 @@ A unified approach like BLIP's can offer several advantages, such as reduced nee
 
 Website: https://replicate.com/salesforce/blip?prediction=bswoddzbzybiwyizksnkohyzxq
 
-![image-20231024001353865](/image-20231024001353865.png)
+![image-20231024001353865](/winter.png)
+![image-20231024001353865](/demo.png)
 
 ## Installation and run
 
