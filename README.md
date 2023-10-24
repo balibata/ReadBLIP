@@ -59,7 +59,7 @@ For efficient pre-training while taking advantage of multitasking learning, the 
 
 ## CapFilt
 
-![img](E:\DS 5690\CapFilt.png)
+![img](/CapFilt.png)
 
 The author proposes Captioning and Filtering (CapFilt), which is a new method to improve the quality of textual corpus. The figure above shows an illustration of CapFilt. It introduces two modules: a subtitler for generating subtitles for a given web image, and a filter for removing noisy image-text pairs. Both the subtitler and filter are initialized from the same pre-trained MED model and are individually fine-tuned on the COCO dataset. Fine-tuning is a lightweight process.
 
@@ -69,7 +69,7 @@ Specifically, a subtitler is an image-based text decoder. It is combined with th
 
 ## Experiments and Results
 
-![image-20231024021553922](E:\DS 5690\VQA.png)
+![image-20231024021553922](/VQA.png)
 
 **Visual Question Answering (VQA):** 
 
@@ -109,7 +109,7 @@ A unified approach like BLIP's can offer several advantages, such as reduced nee
 
 Website: https://replicate.com/salesforce/blip?prediction=bswoddzbzybiwyizksnkohyzxq
 
-![image-20231024001353865](C:\Users\14111\AppData\Roaming\Typora\typora-user-images\image-20231024001353865.png)
+![image-20231024001353865](/image-20231024001353865.png)
 
 ## Installation and run
 
