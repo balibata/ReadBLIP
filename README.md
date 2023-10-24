@@ -31,7 +31,7 @@ This is my own understanding of the **BLIP: Bootstrapping Language-Image Pre-tra
 
 ## Overview
 
-![image-20231023222807253](E:\DS 5690\Overview.png)
+![image-20231023222807253](/Overview.png)
 
 
 
