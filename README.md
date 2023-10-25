@@ -1,4 +1,4 @@
-# Read and Understanding
+# Read and Understand
 
 # BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
 Li J, Li D, Xiong C, et al. Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation[C]//International Conference on Machine Learning. PMLR, 2022: 12888-12900.
