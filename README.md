@@ -65,7 +65,7 @@ The author proposes Captioning and Filtering (CapFilt), which is a new method to
 
 Specifically, a subtitler is an image-based text decoder. It is combined with the LM target to decode the text of a given image. Given a web image$I_{w}$, the subtitler generates a composite subtitle $T_s$. The filter is an image-based text encoder. It is combined with the ITC and ITM goals to understand if text matches images. The filter removes noisy text from the original web text $T_w$ and the resultant text ,$T_s$ which is considered noisy text if the ITM header predicts that the text does not match the image. Finally, the authors combined the filtered image-text pairs with human annotation pairs to form a new dataset and used this dataset to pre-train a new model.
 
-![img](E:\DS 5690\CapFilt_eg.png)
+![img](CapFilt_eg.png)
 
 ## Experiments and Results
 
