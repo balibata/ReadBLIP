@@ -69,6 +69,7 @@ Specifically, a captioner is an image-based text decoder. It is combined with th
 ## Experiments and Results
 
 ![image-20231024021553922](/VQA.png)
+![image-20231024021553922](/VQA_principle.png)
 
 **Visual Question Answering (VQA):** 
 
