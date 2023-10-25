@@ -85,11 +85,26 @@ VQA (Antol et al., 2015) requires this model to predict the answer to a given im
 
 ## Question 1
 
-Given the significance of data quality in training models, how does BLIP's approach to bootstrapping captions from noisy web data compare to other methods that might clean or curate the data first? What are the advantages and potential pitfalls of BLIP's approach?
+What efficient way can you think of that will reduce the affect of noise in dataset from web?
 
 ### Answer
 
-BLIP's approach is proactive, as it generates synthetic captions and filters out noisy ones, allowing it to utilize vast amounts of web data while ensuring data quality. This method can be more scalable compared to manual curation. However, the quality of synthetic captions and the efficiency of the filtering mechanism are crucial. If the synthetic captions aren't of high quality or if the filtering fails to remove all noisy data, the model could still be trained on misleading information.
+- Data Filtering:
+
+  - Rule-based Filtering: Define specific rules to filter out improbable or suspicious data points. For instance, if collecting data about human ages, you might disregard entries above 120 years.
+  - Statistical Filtering: Use statistical measures (like z-scores) to identify and remove outliers.
+- Data Cleaning:
+
+  - Regular Expressions: Use regex patterns to identify and clean unwanted characters or patterns in textual data.
+  - Data Imputation: For missing or suspicious data points, use techniques like mean imputation, median imputation, or more sophisticated methods like k-nearest neighbors.
+- Data Validation:
+
+  - Cross-referencing: Validate data by cross-referencing with reliable secondary sources. This is particularly useful when collecting factual information.
+  - Expert Review: Engage domain experts to review a sample of the dataset and provide feedback on inaccuracies.
+- Semi-supervised and Active Learning:
+
+  - Start with a small, clean subset of the data. Train a model on this subset and use the model to make predictions on the larger, noisy dataset.
+  - Active learning can then be employed where uncertain predictions are reviewed and labeled by humans. This iterative process can gradually clean large portions of the dataset.
 
 
 
