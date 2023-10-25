@@ -95,7 +95,7 @@ BLIP's approach is proactive, as it generates synthetic captions and filters out
 
 ## Question 2
 
-BLIP aims to unify vision-language understanding and generation tasks under a single framework. How does this unified approach impact the adaptability and performance of the model across diverse tasks? What challenges might arise from such a unified approach?
+Application of BLIP?
 
 ### Answer
 
