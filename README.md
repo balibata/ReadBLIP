@@ -37,6 +37,8 @@ This is my own understanding of the **BLIP: Bootstrapping Language-Image Pre-tra
 
 ## Model Architecture
 
+**Multimodal Mixture of Encoder-Decoder (MED):**
+
 - Visual transformer as image encoder, dividing input images into patches and encodes them as a sequence of embeddings
 - New Multimodal mixture of encoder-decoder(MED), a multi-task model which can operate in one of the three functionalities:
   - **Unimodal encoder**: separately encodes image and text, appending a CLS token in the beginning of the text input to summarize the sentence.
