@@ -102,22 +102,22 @@ BLIP aims to unify vision-language understanding and generation tasks under a si
 - E-commerce and Retail:
 
   - Product recommendation based on visual and textual cues.
-Automatically tag product images with relevant descriptors or attributes.
-Interactive Chatbots:
+  - Automatically tag product images with relevant descriptors or attributes.
+- Interactive Chatbots:
 
-Chatbots that can understand and generate responses based on both textual and visual inputs, enhancing user engagement.
-Education:
+  - Chatbots that can understand and generate responses based on both textual and visual inputs, enhancing user engagement.
+- Education:
 
-Assistive tools for visually impaired individuals by describing visual content.
-Automatic generation of study materials based on visual content.
-Medical Imaging:
+  - Assistive tools for visually impaired individuals by describing visual content.
+  - Automatic generation of study materials based on visual content.
+- Medical Imaging:
 
-Assist in diagnosis by correlating medical images with textual reports or annotations.
-Answer queries related to medical images, such as identifying pathologies or explaining features in an X-ray or MRI.
-Advertising and Marketing:
+  - Assist in diagnosis by correlating medical images with textual reports or annotations.
+  - Answer queries related to medical images, such as identifying pathologies or explaining features in an X-ray or MRI.
+- Advertising and Marketing:
 
-Automatically generate ad copy based on product images.
-Analyze social media content to assess brand visibility and sentiment based on images and their associated text.
+  - Automatically generate ad copy based on product images.
+  - Analyze social media content to assess brand visibility and sentiment based on images and their associated text.
 
 
 
