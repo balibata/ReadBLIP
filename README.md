@@ -183,6 +183,8 @@ The following links are relevant paper and original github code, and they also p
 - https://proceedings.mlr.press/v162/li22n/li22n.pdf
 - https://github.com/salesforce/BLIP
 - https://huggingface.co/spaces/Salesforce/BLIP
+- BLIP2:
+  - https://arxiv.org/abs/2301.12597
 
 ## Reference
 
