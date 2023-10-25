@@ -74,11 +74,9 @@ Specifically, a subtitler is an image-based text decoder. It is combined with th
 
 VQA (Antol et al., 2015) requires this model to predict the answer to a given image and question. We do not define VQA as a multi-answer classification task (Chen et al., 2020; Li et al., 2020), we follow Li et al. (2021a) and treat it as an answer generation task, implementing open VQA. As shown in Figure 5(a), during the fine-tuning process, we rearrange the pre-trained model, where image questions are first encoded into multimodal embedding and then given an answer decoder. The VQA model takes the ground real answer as the goal and refines the LM loss. The results are shown in Table 8. Using 14 million images, BLIP outperformed ALBEF's + by 1.64% on the test set. Using 129M images, BLIP achieves better performance than SimVLM, which uses 13× pre-training data and a larger visual backbone with additional convolution stages.
 
-## Future improvement
+## Critical Analysis
 
-The authors found that there are several potential directions to further improve BLIP performance: 
-
-- bootstrapping of multiple rounds of data sets; 
+- Bootstrapping of multiple rounds of data sets; 
 
 - Generate multiple synthetic captions for each image to further expand the pre-training corpus; 
 
